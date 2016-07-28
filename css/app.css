@@ -1,0 +1,365 @@
+
+.img-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.table-match-parent {
+    width: 100%;
+    height: 100%;
+}
+
+.div-hidden {
+    display: none;
+}
+
+/**=================分层样式 ================== */
+.div-level {
+    position: relative;
+}
+
+.level-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#level2-td-1 {
+    width: 50%;
+}
+
+#level2-td-2 {
+    width: 50%;
+}
+
+#level2-td-3 {
+    width: 25%;
+}
+
+#level2-td-4 {
+    width: 25%;
+}
+
+/**=================每日关卡 ================= */
+#div-day1 {
+    position: relative;
+    bottom: 20px;
+}
+
+#div-day2 {
+    position: relative;
+    top: 35px;
+}
+
+#div-day3 {
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+#div-day4 {
+    position: relative;
+    left:20px;
+}
+
+#div-day5 {
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+#div-day6 {
+    position: relative;
+    right: 20px;
+}
+
+#div-day7 {
+    position: relative;
+    right: 20px;
+}
+
+#div-day8 {
+    position: relative;
+    bottom: 20px;
+}
+
+#div-day9 {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+#div-day10 {
+    position: relative;
+    bottom: 40px;
+}
+
+#div-day11 {
+    position: relative;
+    right: 30px;
+}
+
+#div-day12 {
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+#div-day13 {
+    position: relative;
+    left: 60px;
+    top: -10px;
+}
+
+#div-day14 {
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+#div-day15 {
+    position: relative;
+    top: 90px;
+    right: 20px;
+}
+
+#div-day16 {
+    position: relative;
+    top: -30px;
+    left: 35px;
+}
+
+#div-day17 {
+    position: relative;
+    top: 30px;
+}
+
+/**=================顶部样式 ================== */
+.treasure-box {
+    width: 40px;
+    height: 40px;
+}
+
+.treasure-title {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: -3px;
+}
+
+.treasure-table {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.div-feeder {
+    float: right;
+    margin: 10px;
+}
+
+.circle-bg {
+    margin: 5px;
+    padding: 8px;
+    background-size: 100%;
+    background-image: url(../img/circle-background.png);
+    background-repeat: no-repeat;
+}
+
+/**=================关卡样式 ================== */
+.div-rank-view {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.div-star-view {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-left: -2px;
+    z-index: -1;
+    position: absolute;
+}
+
+.img-star {
+    width: 15px;
+    height: 15px;
+}
+
+.img-star-left {
+    /*-webkit-transform:rotate(-50deg);*/
+}
+
+.img-star-middle {
+    margin-bottom: 5px;
+}
+
+.img-star-right {
+    /*-webkit-transform:rotate(50deg);*/
+}
+
+.div-rank-day-view {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-light {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    z-index: -1;
+    left: 10px;
+    top: -2px;
+}
+
+.img-day {
+    width: 45px;
+    height: 45px;
+}
+
+.img-day-num {
+    height: 25px;
+    text-align: center;
+}
+
+.div-rank-num-left {
+    text-align: left;
+    position: relative;
+    bottom: 40px
+}
+
+.div-rank-num-bot-left {
+    text-align: left;
+    position: relative;
+    bottom: 20px
+}
+
+.div-rank-num-bottom {
+    text-align: center;
+    position: relative;
+    top:2px;
+}
+
+.div-rank-num-bot-right {
+    text-align: right;
+    position: relative;
+    left:5px;
+    bottom: 20px
+}
+
+.div-rank-num-right {
+    text-align: right;
+    position: relative;
+    left:4px;
+    bottom: 40px
+}
+
+/**=================设定宽高比================= */
+.div-head-view {
+    position: fixed;
+    width: 100%;
+    height: 105px;
+    z-index: 1;
+    background-image: url(../img/level-bg/level-0.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.div-level-one-view {
+    width: 100%;
+    height: 0;
+    padding-bottom: 45%;
+}
+
+.div-level-35-view {
+    width: 100%;
+    height: 0;
+    padding-bottom: 35%;
+}
+
+.div-level-40-view {
+    width: 100%;
+    height: 0;
+    padding-bottom: 40%;
+}
+
+.div-level-60-view {
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+}
+
+.dialogCover {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.75;
+}
+
+.dialog {
+    position: relative;
+    display: none;
+    z-index: 3;
+}
+
+.div-close-dialog {
+    position: relative;
+    text-align: right;
+}
+
+.img-close-dialog {
+    width: 20px;
+    height: 20px;
+}
+
+.img-box-open {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.div-box-title {
+    font-size: 1.1em;
+    color: #FCC328;
+    text-align: center;
+    padding: 10px;
+    font-weight:bold;
+}
+
+.img-take-btn {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    border-radius: 20px;
+    border: 2px solid #FDDE8B;
+    background-color: #F9CE5B;
+    color: #712222;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/**=================Toast================= */
+#toast {
+    position: fixed;
+    bottom: 100px;
+    width: 60%;
+    left: 15%;
+    border-radius:30px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    -webkit-transition: opacity 0.5s ease-out;
+    display:block;
+    word-break: break-all;
+    word-wrap: break-word;
+}
